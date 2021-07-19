@@ -1,0 +1,3 @@
+include ':pdf'
+include ':app'
+rootProject.name = "PDF"

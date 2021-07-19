@@ -1,0 +1,13 @@
+<manifest package="com.artifex.mupdfdemo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="false"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.artifex.mupdfdemo.MuPDFActivity">
+        </activity>
+    </application>
+
+</manifest>
